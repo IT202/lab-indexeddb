@@ -23,7 +23,7 @@ open.onsuccess = function() {
     // Add some data
     store.put({id: 12345, name: {first: "John", last: "Doe"}, age: 42});
     store.put({id: 67890, name: {first: "Bob", last: "Smith"}, age: 35});
-    
+    store.put({id: 37890, name: {first: "Javy", last: "Rodriguez"}, age: 42, team: "Cubs"});    
     // Query the data
     var getJohn = store.get(12345);
     var getBob = index.get(["Smith", "Bob"]);
