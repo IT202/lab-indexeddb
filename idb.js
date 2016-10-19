@@ -4,7 +4,7 @@
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
 
 // Open (or create) the database
-var open = indexedDB.open("MyDatabase", 1);
+var open = indexedDB.open("MyDatabase", 2);
 
 // Create the schema
 open.onupgradeneeded = function() {
