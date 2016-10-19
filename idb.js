@@ -1,3 +1,5 @@
+// copy of https://gist.github.com/BigstickCarpet/a0d6389a5d0e3a24814b
+
 // This works on all devices/browsers, and uses IndexedDBShim as a final fallback 
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
 
